@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harsh — Full-Stack Developer</title>
+<meta name="description" content="Harsh — BCA 3rd Semester full-stack developer. Live projects, Telegram ecosystem, and contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="bg-grid"></canvas>
+
+<nav class="navbar">
+  <div class="logo">HARSH<span>.dev</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">[ABOUT]</a></li>
+    <li><a href="#projects">[PROJECTS]</a></li>
+    <li><a href="#stack">[STACK]</a></li>
+    <li><a href="#contact">[CONTACT]</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="hero-section">
+  <div class="hero-content">
+    <p class="status-line"><span class="dot dot-live"></span> STATUS: ONLINE — BCA 3RD SEMESTER</p>
+    <h1 class="name">HARSH</h1>
+    <h2 class="typewriter"><span id="typed-text"></span><span class="cursor">_</span></h2>
+    <p class="description">I design and ship complete systems — database-backed web apps, live APIs,
+      and Telegram automation — and deploy every one of them where you can press the button and
+      watch it actually run.</p>
+    <div class="btn-group">
+      <a href="#projects" class="btn btn-primary">View Live Systems <i class="fas fa-arrow-right"></i></a>
+      <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+    </div>
+  </div>
+
+  <div class="status-strip scroll-reveal">
+    <div class="status-chip">
+      <span class="dot dot-live"></span>
+      <span class="chip-label">SYS.01 Cinenvood</span><span class="chip-state">LIVE</span>
+    </div>
+    <div class="status-chip">
+      <span class="dot dot-live"></span>
+      <span class="chip-label">SYS.02 Weather Dashboard</span><span class="chip-state">LIVE</span>
+    </div>
+    <div class="status-chip">
+      <span class="dot dot-active"></span>
+      <span class="chip-label">SYS.03 Telegram Ecosystem</span><span class="chip-state">ACTIVE</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section scroll-reveal">
+  <p class="eyebrow">01 — WHO'S RUNNING THIS</p>
+  <h2 class="section-title">About</h2>
+  <div class="about-grid">
+    <p class="about-text">I'm an 18-year-old full-stack developer and BCA 3rd semester student from India.
+      I like building things that stay up: platforms with real databases behind them, dashboards that
+      pull live data, and bots that run unattended. Most of what's below isn't a mockup — it's deployed
+      and reachable right now.</p>
+    <div class="about-meta">
+      <div><span class="meta-key">ROLE</span><span class="meta-val">Full-Stack Developer</span></div>
+      <div><span class="meta-key">LEVEL</span><span class="meta-val">BCA — 3rd Semester</span></div>
+      <div><span class="meta-key">AVAILABILITY</span><span class="meta-val">Open to projects</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section scroll-reveal">
+  <p class="eyebrow">02 — WHAT'S RUNNING</p>
+  <h2 class="section-title">Deployed Systems</h2>
+
+  <div class="projects-grid">
+    <div class="glass-card project-card">
+      <div class="card-head">
+        <span class="sys-tag">SYS.01</span>
+        <span class="live-pill"><span class="dot dot-live"></span>LIVE</span>
+      </div>
+      <h3>Cinenvood</h3>
+      <p>A full-stack movie review and discovery platform. Users can search and browse titles, read and
+        post reviews, and rate films in real time — all backed by a persistent database and a REST API
+        that keeps ratings and user data in sync across sessions.</p>
+      <div class="tech-tags">
+        <span>REST API</span><span>Database</span><span>Full-Stack</span>
+      </div>
+      <div class="card-links">
+        <a href="https://cinenvood.onrender.com/" target="_blank" rel="noopener" class="link-btn">
+          <i class="fas fa-external-link-alt"></i> Launch Cinenvood
+        </a>
+      </div>
+    </div>
+
+    <div class="glass-card project-card">
+      <div class="card-head">
+        <span class="sys-tag">SYS.02</span>
+        <span class="live-pill"><span class="dot dot-live"></span>LIVE</span>
+      </div>
+      <h3>Weather Dashboard</h3>
+      <p>A real-time weather forecasting dashboard that consumes a live weather API. It supports
+        geolocation-based lookup and presents forecast data in a clean, minimal, fully responsive
+        interface built for a quick, at-a-glance read.</p>
+      <div class="tech-tags">
+        <span>Weather API</span><span>JavaScript</span><span>Responsive UI</span>
+      </div>
+      <div class="card-links">
+        <a href="https://weather-j82w.onrender.com/" target="_blank" rel="noopener" class="link-btn">
+          <i class="fas fa-external-link-alt"></i> Launch Weather App
+        </a>
+      </div>
+    </div>
+
+    <div class="glass-card project-card">
+      <div class="card-head">
+        <span class="sys-tag">SYS.03</span>
+        <span class="live-pill live-pill-active"><span class="dot dot-active"></span>ACTIVE</span>
+      </div>
+      <h3>Telegram Ecosystem</h3>
+      <p>Harsh Servers — a growing Telegram community and bot ecosystem, serving as a hub for tools,
+        resources, and giveaways for a tech-focused audience.</p>
+      <div class="tech-tags">
+        <span>Telegram</span><span>Community</span><span>Automation</span>
+      </div>
+      <div class="card-links">
+        <a href="https://t.me/+DvSgQwffeiwxMzg1" target="_blank" rel="noopener" class="link-btn">
+          <i class="fab fa-telegram"></i> Join Channel
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="stack" class="section scroll-reveal">
+  <p class="eyebrow">03 — BUILT WITH</p>
+  <h2 class="section-title">Tech Stack</h2>
+  <div class="stack-grid">
+    <span class="stack-chip">HTML5</span>
+    <span class="stack-chip">CSS3</span>
+    <span class="stack-chip">JavaScript (ES6+)</span>
+    <span class="stack-chip">REST APIs</span>
+    <span class="stack-chip">Databases</span>
+    <span class="stack-chip">Git / GitHub</span>
+    <span class="stack-chip">Render</span>
+    <span class="stack-chip">Netlify</span>
+    <span class="stack-chip">Telegram Bot API</span>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section scroll-reveal">
+  <p class="eyebrow">04 — REACH ME</p>
+  <h2 class="section-title">Get In Touch</h2>
+  <p class="contact-lead">Let's build the next system together.</p>
+  <div class="contact-grid">
+    <a href="mailto:harsh48227@gmail.com" class="contact-card">
+      <i class="fas fa-envelope"></i>
+      <span class="contact-label">Email</span>
+      <span class="contact-value">harsh48227@gmail.com</span>
+    </a>
+    <a href="https://t.me/pmharsh" target="_blank" rel="noopener" class="contact-card">
+      <i class="fab fa-telegram"></i>
+      <span class="contact-label">Telegram</span>
+      <span class="contact-value">@pmharsh</span>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 HARSH. ALL RIGHTS RESERVED.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+      </html>
